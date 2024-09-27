@@ -1,6 +1,127 @@
 body
 {
-	font-family: "EB Garamond", serif;
+	font-family: "Inter";
+	padding-left: 8px;
+}
+
+p {
+	color:rgb(29, 29, 30);
+	font-family: "cormorant garamond";
+	font-size: 18px;
+	line-height: 135%;
+	width:900px;
+	margin-bottom: 2px;
+}
+
+
+blockquote { color: rgb(208, 113, 181); 
+	font-size: 22px;
+	text-align: end;
+	letter-spacing: 0px;
+	font-style: italic;
+	font-weight:350;
+	padding-left: 400px;
+
+}
+
+h3
+{
+	background-color: rgb(208, 113, 181);
+	font-weight:200;
+	font-size:28px;
+	color: white;
+	padding-block: 8px;
+	padding-left: 32px;
 
 
 }
+
+hgroup{
+	background-color: rgb(208, 113, 181);
+	font-size:40px;
+	color: rgb(0, 0, 0);
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+
+h1{
+	font-family: "Inter";
+	font-weight:450;
+	margin: 100px;
+	padding:30px;
+	line-height: 70px;
+}
+
+
+h2{
+	line-height: 20px;
+}
+
+h5{
+font-size: 12px;
+font-weight:300;
+text-transform: uppercase;
+letter-spacing: 6px;
+padding-left: 30px;
+}
+
+h1, h5 {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin: -5px;
+}
+
+
+.highlight
+{
+	color:white;
+	font-style: italic;
+}
+
+.response
+{
+	
+	text-align: left;
+	padding-left: 500px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.responseheading
+{
+	background-color: #d071b5;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 56px;
+	font-weight: 450;
+	letter-spacing: -2px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.responsebody{
+	background-color: #d071b52b;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	padding-left: 30px;
+	padding-right: 300px;
+	text-align: left;
+	width:600px;
+	color: rgb(0, 0, 0);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer { 
+	background-color: rgba(115, 255, 1, 0.093);
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
