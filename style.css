@@ -2,32 +2,43 @@ body
 {
 	font-family: "DM Sans";
 	padding-left: 8px;
-	/* max-width: 75ch; */
 }
 
 p {
 	color:rgb(29, 29, 30);
 	font-size: 24px;
 	line-height: 150%;
-
+	font-weight: 250;
 }
+
+hgroup
+{
+	background-color: #764316;
+	padding-top: 60px;
+}
+
+hgroup h1{
+	color: #E5642D;
+}
+
+hgroup em{
+	color: white;
+}
+
 
 h1{
 
-	/* line-height: 150px; */
 	text-transform: uppercase;
 	text-align: left;
-	font-weight:900px;
+	font-weight:400px;
 
 }
 
 
 h2{
 	font-size: 80px;
-	/* margin-left: 40px;
-	padding-left: 50px; */
 	max-width: 12ch;
-	color: #4CC800;
+	color: #000000;
 }
 
 h3{
@@ -36,17 +47,21 @@ h3{
 }
 
 
-blockquote { 
+ blockquote { 
 	font-size: 44px;
 	text-align: left;
-	font-weight:500px;
+	line-height: 125%;
 	
-}
+} 
 
 .StyleFont
 {
 	font-family: 'Great Vibes';
+	/* color: #E7C8C9; */
+	color: white;
+	
 }
+
 
 .StyleColor{
 	color:#4CC800;
@@ -55,18 +70,26 @@ blockquote {
 
 .fixwidth{
 	width: 100%;
-	text-align: left;
+	text-align: right;
 	padding-left: 80px;
+	color: #E3AE97;
 }
 
 .fixwidth section {
     display: inline-block;
 	padding-left: 0px;
-	padding-right: 40px;
+	padding-right: 60px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.fixwidth p{
+	color: #E3AE97;
 }
 
 .fixwidth em{
-	font-weight: bold;
+	font-weight: 400;
+	color: #E7C8C9;
 }
 
 .headingWrapper{
@@ -80,7 +103,6 @@ blockquote {
 	border-radius: 10px;
 	border-color: rgb(0, 0, 0);
 	width: 80%;
-	font-weight: bold;
 	line-height: 180px;
 
 
@@ -88,10 +110,7 @@ blockquote {
 
 
 .ArtcileParaWrapper{
-
-		/* width:900px; */
-		/* max-width: 160ch; */
-		/* width: 50%; */
+		background-color: #F8F7F1;
 		margin-bottom: 2px;
 		padding-right: 50px;
 		padding-bottom: 20px;
@@ -103,8 +122,13 @@ blockquote {
 {
 		padding-left: 500px;
 		padding-bottom: 15px;
+		padding-top: 20px;
+}
 
 
+
+.ArtcileParaWrapper p:first-child{
+	padding-top: 50px;
 }
 
 .ArtcileParaWrapper h2{
@@ -119,32 +143,69 @@ blockquote {
 	padding-top: 30px;
 }
 
+.ArtcileParaWrapper .StyleFont
+{
+	color: #8A3324;
+}
+
+
+.browntext {
+	color: #8A3324;
+
+}
+
+
 .ArtcileParaWrapper blockquote{
 
 	padding-left: 30px;
-	max-width: 80%;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 10px;
+	width: 75%;
+	background-color: #764316;
+	border-radius: 20px;
+
+}
+
+
+
+blockquote {
+	font-size: 44px;
+	text-align: left;
+	color: #D09597;
+	font-weight: 250;
+
+}
+
+blockquote em{
+	color: #E5642D;
+	transition: color 0.5s ease;
+}
+	
+blockquote em:hover{
+	color: white;
 
 }
 
 .ArtcileParaWrapper cite{
-	font-weight: 500px;
-	color: rgb(197, 197, 197);
+	font-weight: 700px;
+	color: #E5642D;
+	opacity: 90%;
 	font-size: 20px;
+	text-transform: uppercase;
+
 
 }
 
 
 h4{
 	font-size: 32px;
-	/* padding-left: 600px;
-	padding-right: 50px;
-	padding-top: 50px; */
-
 }
 
 
 .responsebg{
-	background-color: #62E810;
+	background-color: #764316;
 	padding-top: 60px;
 	padding-left: 60px;
 	padding-bottom: 60px;
@@ -155,8 +216,13 @@ h4{
 	width: fit-content;
 	display: inline-block;
 	vertical-align:top;
-
 }
+
+
+.responseHeadWrapper h1{
+	color: #E5642D;
+}
+
 
 
 .responseWrapper {
@@ -179,15 +245,17 @@ h4{
 	font-size: 20px;
 	text-align: left;
 	padding-bottom: 2px;
+	color: #D09597;
 }
 
 .responseLink a
 {
-	color: white;
+	color: #E5642D;
+	text-decoration: underline;
 }
 
 a:hover {
-	color: #0400ff;
+	color: #ffffff;
   }
 
 
@@ -206,7 +274,8 @@ a:hover {
 	width: fit-content;
 	padding-top: 20px;
 	padding-bottom: 2px;
-	font-weight: 500;
+	font-weight: 400;
+	color: #E7C8C9;
 	
 }
 
@@ -218,6 +287,13 @@ a:hover {
 	width: fit-content;
 	padding-top: 6px;
 	padding-bottom: 20px;
+	color: #D09597;
+	font-weight: 200;
+}
+
+
+.responseParaWrapper em{
+	color: #E7C8C9;
 }
 
 .responseParaWrapper blockquote{
@@ -227,29 +303,41 @@ background-color: white;
 
 
 
-
 .responsequote{
-	/* position: absolute; */
-	max-width: 35%;
+	max-width: 38%;
 	text-align: left;
 	font-size: 24px;
 	padding-bottom: 0;
 	display: inline-block;
 	}
 
+
 .responsequote blockquote {
 	display: inline-block;
-
 }
 
+
 .responsequote em{
+	color: #E5642D;
+}
+
+
+.ColorChange {
+	color: inherit; 
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+
+.ColorChange:hover{
 	color: white;
 }
 
+
 .responsequote cite{
 font-weight: 500px;
-color: black;
-opacity: 30%;
+color: #D09597;
+opacity: 70%;
 font-size: 20px;
 padding: 0;
 }
@@ -263,8 +351,32 @@ hr {
 
 footer {
 text-align: center;
-padding: 60px;
-background-color: #22ff001c;
+padding: 10px;
+background-color: #efd6d7;
+padding-bottom: 50px;
+}
+
+footer p,a{
+	padding: 5px;
+}
+
+.copytext{
+	font-size: 18px;
+	color: #764316;
+}
+
+.BackToTop{
+	background-color: #D09597;
+	bottom: 10px; 
+	right: 20px;
+	margin-top: 50px;
+	color: #0b0b0b;
+	padding: 8px 16px;
+	border-radius: 500px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	transition: background-color 0.3s ease;
 }
 
   .great-vibes-regular {
